@@ -1,0 +1,38 @@
+:root{
+    --primario: #3b2d4c;
+    --secundario: #FFFFFF;
+    --terciario: #af8ae2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegador{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    height: 7vh;
+    background-color: var(--primario);
+    padding: 1rem;
+}
+
+.links a{
+    color: var(--primario);
+    margin: 20px;
+    color: var(--secundario);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.links a:hover {
+    color: var(--terciario);
+}
+
+.navegador img{
+    height: 7vh;
+}
+
+
